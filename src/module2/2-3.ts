@@ -8,5 +8,11 @@
   // const rollNumber: Array<number> = [1, 2, 3];
   // const rollNumber: Array<number> = [1, 2, 3];
 
+  //  getneric tuple
+
+  type GeniricTuple<X, Y> = [X, Y];
+
+  const manush: GeniricTuple<string, string> = ["Mr.X", "Mr. Y"];
+
   //
 }
