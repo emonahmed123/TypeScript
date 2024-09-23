@@ -9,3 +9,9 @@ const user: {
   isMarried: true,
   wife: "Bibi",
 };
+
+const heroOje = {
+  name: "Inaya",
+  age: 1,
+  prof: "hafaza",
+};
