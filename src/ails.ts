@@ -34,3 +34,19 @@ const Calculate = (
 
 console.log(Calculate(10, 20, (x, y) => x + y));
 console.log(Calculate(10, 20, (x, y) => x - y));
+
+// let emon = ["emon", "smon", "bmon"];
+
+const reverStr = (str: string): string => {
+  let newStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newStr = newStr + str[i];
+  }
+  return newStr;
+};
+
+console.log(reverStr("emon"));
+let emon = "emon";
+const bal = emon.split("").reverse().join("");
+
+console.log(bal);
