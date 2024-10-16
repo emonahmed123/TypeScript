@@ -28,10 +28,14 @@
   // // Interseciotn
   // type FullStack = Font & Back;
   //  nullish coalescing operator
+
   // null/ undefined ---> decision making
 
-  const isAuthenticated = null;
+  const isAuthenticated = "";
 
   const result1 = isAuthenticated ?? "Geust";
   const result2 = isAuthenticated ? isAuthenticated : "Geust";
+
+  console.log(result1);
+  console.log(result2);
 }

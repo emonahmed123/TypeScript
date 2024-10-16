@@ -37,6 +37,12 @@ console.log(Calculate(10, 20, (x, y) => x - y));
 
 // let emon = ["emon", "smon", "bmon"];
 
+/**
+ * The function `reverStr` in TypeScript reverses a given string.
+ * @param {string} str - "emon"
+ * @returns The `reverStr` function is returning the reversed version of the input string "emon", so
+ * the output would be "nome".
+ */
 const reverStr = (str: string): string => {
   let newStr = "";
   for (let i = str.length - 1; i >= 0; i--) {
