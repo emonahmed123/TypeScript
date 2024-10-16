@@ -43,16 +43,16 @@ console.log(Calculate(10, 20, (x, y) => x - y));
  * @returns The `reverStr` function is returning the reversed version of the input string "emon", so
  * the output would be "nome".
  */
-const reverStr = (str: string): string => {
-  let newStr = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    newStr = newStr + str[i];
-  }
-  return newStr;
-};
+// const reverStr = (str: string): string => {
+//   let newStr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newStr = newStr + str[i];
+//   }
+//   return newStr;
+// };
 
-console.log(reverStr("emon"));
-let emon = "emon";
-const bal = emon.split("").reverse().join("");
+// console.log(reverStr("emon"));
+// let emon = "emon";
+// const bal = emon.split("").reverse().join("");
 
-console.log(bal);
+// console.log(bal);
